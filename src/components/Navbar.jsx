@@ -33,11 +33,7 @@ function Navbar() {
               className='nav-item'
               onClick={() => setHideCollapse(!hideCollapse)}
             >
-              <Link
-                to='/'
-                className='nav-link active'
-                aria-current='page'
-              >
+              <Link to='/' className='nav-link' aria-current='page'>
                 Home
               </Link>
             </li>
